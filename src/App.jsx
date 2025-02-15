@@ -9,6 +9,7 @@ import TestimonialsNew from './components/TestimonialsNew';
 import TrustedBySection from './components/TrustedBySection';
 import Footer from './components/Footer';
 import PricingPage from './pages/PricingPage';
+import ComparisonPage from './components/ComparisonPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <div className="bg-gradient-to-b from-gray-50 to-white">
               <Navbar />
               <Hero />
+              <ComparisonPage />
               {/* <HowItWorks /> */}
               <FeaturesNew />
               <FeaturesSection />
