@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import PricingPage from './pages/PricingPage';
 import ComparisonPage from './components/ComparisonPage';
 import HowItWorksNew from './components/HowItWorksNew';
-import ContactUs from './components/Contactus';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (

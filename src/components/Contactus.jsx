@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar";
-import PricingNew from "../components/PricingNew";
-import Footer from "../components/Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const ContactUs = () => {
   return (
@@ -80,7 +79,6 @@ const ContactUs = () => {
           </form>
         </motion.div>
       </div>
-      <ContactUs />
       <Footer />
     </>
   );
