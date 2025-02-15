@@ -11,6 +11,9 @@ const logos = [
   "/partners/4.png",
   "/partners/5.png",
   "/partners/6.png",
+  "/partners/1.png",
+  "/partners/2.png",
+  "/partners/3.png",
 ];
 
 const TrustedBySection = () => {
