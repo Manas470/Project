@@ -6,7 +6,7 @@ const features = [
     description:
       "Download your final designs in high-resolution formats suitable for print and digital use. Ensure your work looks professional and polished in any medium.",
     buttonText: "Get Started",
-    image: "3.png", 
+    image: "1.png", 
     reverse: false,
   },
   {
@@ -14,7 +14,7 @@ const features = [
     description:
       "Seamlessly collaborate with your team in real-time. Share ideas, give feedback, and make edits together, no matter where you are.",
     buttonText: "Get Started",
-    image: "3.png", 
+    image: "2.png", 
     reverse: true,
   },
 ];
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
               <img
                 src={feature.image}
                 alt={feature.title}
-                className="w-80 md:w-full rounded-lg shadow-lg"
+                className="w-30 md:w-full rounded-lg shadow-lg h-[40rem]"
               />
             </div>
           </div>
