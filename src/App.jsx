@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import PricingPage from './pages/PricingPage';
 import ComparisonPage from './components/ComparisonPage';
 import HowItWorksNew from './components/HowItWorksNew';
+import ContactUs from './components/Contactus';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/how-it-works" element={<HowItWorksNew/>} />
+        <Route path="/contact-us" element={<ContactUs/>} />
       </Routes>
     </Router>
   );
